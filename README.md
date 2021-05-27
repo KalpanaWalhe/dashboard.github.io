@@ -4,6 +4,6 @@
 
 IDE Used - Visual Studio Code
 
-To Run This site click on link provided below
+To Visit site click on LINK provided below
 
 https://kalpanawalhe.github.io/dashboard.github.io/Html/Index.html
