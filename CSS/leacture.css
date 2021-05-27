@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lec-container{
+    width: 25%;
+    overflow: auto;
+    height: 50%;
+    position: fixed;
+    margin-left: 5rem;
+    margin-right: 43rem;
+    margin-top: 4rem;
+}
+
+.lec-container h1{
+    font-size: 1rem;
+}
+
+.box6{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #64638f1e;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-top: .5rem;
+    padding: .8rem 0;
+}
+
+.coll3 i{
+    font-size: 2rem;
+    padding-left: .5rem;
+    color: #048ba8;
+}
+
+.coll2 p{
+    font-size: .8rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+
+.lec-container .hi{
+    font-size: 1.5rem; padding-bottom: .5rem;
+    color: #1d4e89;
+}
+
+.lec-container .hi span{
+    font-size: 1.5rem; padding-bottom: .5rem;
+    color: #000000;
+}
+
+.coll1 h6{
+    padding-left: 1.2rem;
+    font-weight: lighter;
+}
+
+.coll2 h5{
+    font-weight: lighter;
+}
+
+.coll1 h3{
+    font-size: 1rem;
+    padding-bottom: .2rem;
+}
+
+.coll1{
+    width: 5rem;
+}
+
+.coll2{
+    width: 12rem;
+}
+
+.coll3{
+    width: 3rem;
+}
+
+.lec-col {
+    float: left;
+}
+
+.lec-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

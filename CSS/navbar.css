@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/********************TopNavbar******************/
+.nav-container{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 20rem;
+    padding-left: 65rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background: #d8e2dc3d;
+    box-shadow: 1px 1px rgba(219, 219, 219, 0.363);
+}
+
+.col-1{
+    width: 2rem;
+}
+
+.col-2{
+    width: 2rem;
+}
+
+.col-3{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.col-4{
+    width: 10rem;
+}
+
+.col-5{
+    width: 2rem;
+}
+
+.nav-col .fa-heart{
+    margin-top: .5rem;
+}
+
+.nav-col .fa-bell{
+    margin-top: .5rem;
+}
+
+.nav-col .fa-user-circle{
+    font-size: 2rem;
+    color: #510087; 
+    padding-right: 1rem;
+    
+}
+
+.nav-col .fa-chevron-down{
+    font-size: .6rem; 
+    margin-top: .7rem;
+    font-weight: lighter;
+    
+}
+
+.nav-col h3{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: .5rem;
+}
+
+.nav-col{
+    float: left;
+}
+
+.nav-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*  SideNavbar 1st   */
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.5px 1px rgba(219, 219, 219, 0.363);
+    overflow-x: hidden;
+    padding-top: 5rem;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+   
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav i{
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+.blue{
+    fill: #fff;
+}
+
+.blue:after{
+  content: '•';
+  color: #0d41e1;
+  font-size: 1em;
+  position: absolute;
+  right: -8;
+  top: -8;
+  margin-top: .5rem;
+}
+
+.red:after{
+  content: '•';
+  color: #d60707;
+  font-size: 1em;
+  position: absolute;
+  right: -8;
+  top: -8;
+  margin-top: .5rem;
+}
+
+
+
+/*  SideNavbar 2nd   */
+.sidenav1 {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.5px 1px rgba(219, 219, 219, 0.363);
+    overflow-x: hidden;
+    margin-left: 3.2rem;  
+}
+
+.sidenav1 .home{
+    margin-top: 5rem;
+}
+
+.sidenav1 .logo i{
+    margin-top: .5rem;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: #457b9d;
+}
+  
+.sidenav1 a {
+    padding: 0px 8px 6px 16px;
+    text-decoration: none;
+    font-size: .83rem;
+    color: #818181;
+    display: block;
+    margin-top: 2rem;
+}
+
+.sidenav1 i{
+      margin-right: .5rem;
+      font-size: 1.5rem;
+}
+ 
+
+ 
+
+ 
+  
+ 
